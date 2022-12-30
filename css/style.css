@@ -20,7 +20,7 @@ section .container{
     width: auto;
     max-width: 1170px;
     height: 500px;
-    background-image: url(images/banner.jpg);
+    background-image: url(Assessment3.github.io/images/banner.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
