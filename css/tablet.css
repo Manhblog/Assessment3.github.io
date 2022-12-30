@@ -1,0 +1,51 @@
+
+/*Hiển thị trên Tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+
+  section .container{
+    max-width: 768px;
+  }
+
+  /* Banner  */
+
+
+ /* Navbar  */
+ #nav-bar .container{
+  margin: 0 auto;
+ }
+
+ .border-navbar{
+  padding: 16px 18px;
+ }
+
+ .anh_ca_nhan img{
+  display: none;
+ }
+
+ /* About  */
+
+ /* Job-info  */
+ #job-info .container{
+  grid-template-columns: repeat(2,1fr);
+  /* display: flex;
+  flex-direction: column;
+  width: 400px;
+  flex-wrap: wrap; */
+ }
+
+ /* Certificate  */
+ .nd-chungchi-giaithuong{
+  flex-direction: column;
+ }
+
+ #certificate img{
+  width: 100%;
+ }
+
+ /* Project  */
+ .noi-dung-du-an{
+  gap: 16px;
+ }
+
+ /* Footer  */
+}

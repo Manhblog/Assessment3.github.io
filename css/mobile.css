@@ -1,0 +1,97 @@
+
+/*Hiển thị trên Phone */
+@media (max-width: 768px) { 
+
+ section .container{
+  max-width: 400px;
+ }
+
+ /* Banner  */
+ #banner .text-banner h1{
+  font-size: 24px;
+  margin-bottom: 0;
+ }
+
+ .text-banner span{
+  font-size: 12px;
+ }
+
+ /* Navbar  */
+ #nav-bar .container{
+   max-width: 768px;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 0;
+   margin: 16px auto;
+   padding: 0 30%;
+   border: none;
+ }
+
+ .anh_ca_nhan img{
+   display: none;
+  }
+
+ .border-navbar{
+   padding: 0 30px;
+   word-wrap: normal;
+   border: none;
+ }
+
+ /* About  */
+ #about .container{
+  grid-template-columns: 1fr;
+ }
+
+ .section-title{
+  padding-top: 32px;
+  padding-bottom: 12px;
+ }
+
+ #about span {
+  line-height: 1.7;
+ }
+
+ /* Job-info  */
+ #job-info .container{
+  grid-template-columns: 1fr;
+ }
+
+ /* Certificate  */
+ .chungchi-giaithuong{
+  grid-template-columns: 1fr;;
+ }
+
+ .nd-chungchi-giaithuong{
+  flex-direction: column;
+ }
+
+ #certificate img{
+  width: 100%;
+ }
+
+ /* Project  */
+ .noi-dung-du-an{
+  grid-template-columns: 1fr;
+  padding-left: 0;
+ }
+
+ .noi-dung-du-an .cot{
+  width: 100%;
+  margin: 8px auto;
+ }
+
+ #project .container .section-title{
+  padding-left: 0;
+ }
+
+ .border-pj,
+ td{
+  padding-left: 16px;
+ }
+
+ /* Footer  */
+ #footer .container{
+  gap: 24px;
+ }
+ 
+}

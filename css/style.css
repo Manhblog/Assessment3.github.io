@@ -1,0 +1,349 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+section .container{
+    margin: auto;
+    display: block;
+    padding: 30px 0;
+}
+
+/* banner */
+#banner{
+    padding: 50px;
+    margin: auto;
+    position: relative;
+    width: auto;
+    max-width: 1170px;
+    height: 500px;
+    background-image: url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.text-banner{
+    text-align: center;
+    color: #f1f3f5;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -40%);
+}
+
+/* nav-bar */
+#nav-bar .container {
+    margin-top: 0;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: nowrap;
+}
+
+.icon{
+    color: #339af0
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: #333;
+}
+
+.border-navbar{
+    border-left: 1px solid #dee2e6;
+    padding: 16px 50px;
+}
+
+.border-navbar-du-an{
+    border-right: 1px solid #dee2e6;
+}
+
+/*About: phần thông tin cá nhân */
+
+/* Tạo grid cho phần mục tiêu nghề nghiệp và thông tin cá nhân */
+
+#about{
+    background-color: #f7f7f7;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#about .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    padding: 0;
+}
+
+#target{
+    padding-left: 48px;
+    padding-right: 12px;
+}
+
+#personal-info{
+    padding-left: 48px;
+}
+
+/* tiêu đề h1 */
+.section-title{
+    font-size: 30px;
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+#about span {
+    line-height: 1.5;
+}
+
+.info{
+    margin-bottom: 16px;
+    list-style-type: none;
+    line-height: 2;
+}
+
+/* biểu tượng mạng xã hội trong phần thông tin cá nhân */
+.ic-thong-tin-ca-nhan{
+   padding: 24px 0;
+}
+
+/* job-info: thông tin nghề nghiệp */
+#job-info .container {
+    gap: 24px;
+}
+
+#job-info .container .column {
+    gap: 16px;
+}
+
+#job-info .container .column .column-item {
+    align-items: flex-start;
+    border: 1px solid #d0d0d0;
+    box-shadow: 1px 1px 5px #d0d0d0;
+    padding: 64px 16px;
+}
+
+.column-item h1 {
+    font-size: 32px;
+    width: 75%;
+    padding: 0 40px 0 24px;
+    white-space: nowrap;
+}
+
+.column-item i {
+    width: 25%;
+    text-align: center;
+    font-size: 36px;
+    color: gray;
+}
+
+.work-detail{
+    padding: 40px 20px 0px 40px;
+    line-height: 2;
+    margin-bottom: 0px;
+}
+
+.name-work ul{
+    padding: 0;
+}
+
+/* style cho li */
+.name-work li{
+    color: #339af0;
+}
+
+.name-work ul li span{
+    color: black;
+    font-size: 20px;
+}
+
+.time-line h5{
+    font-size: 16px;
+}
+
+.recent{
+    background-color: #339af0;
+    border-radius: 8px;
+    padding: 8px;
+    color: #f7f7f7;
+}
+
+.work-content h5{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+/* style phần sở thích */
+.hobbies-item{
+    margin-top: 40px;
+    margin-left: 16px;
+    text-align: center;
+}
+
+.hobbies-item h5{
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.hobbies-item i{
+    font-size: 20px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #339af0;
+    color: #339af0;
+}
+
+/* style phần ngôn ngữ, kỹ năng */
+.active{
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+
+.non-active{
+    background: #d0d0d0;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+
+.language-item,
+.skill-item{
+   margin: 40px 24px ;
+}
+
+.language-item h5,
+.skill-item h5{
+   font-size: 16px;
+}
+
+
+/* phần: chứng chỉ, giải thưởng */
+#certificate{
+    background-color:#f7f7f7 ;
+    max-width: 1170px;
+    padding: 0 24px 48px 24px;
+    margin: auto;
+}
+
+.chungchi-giaithuong{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding-top: 24px;
+}
+
+.nd-chungchi-giaithuong{
+    display: flex;
+    gap: 16px;
+    line-height: 1.5;
+}
+
+.nd-chungchi-giaithuong h4{
+    font-size: 18px;
+}
+
+.nd-chungchi-giaithuong h5{
+    font-size: 16px;
+}
+
+
+/*project:  phần dự án */
+#project .container{
+    margin-top: 0;
+    padding-top: 0;
+    margin: auto;
+}
+
+.noi-dung-du-an{
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 32px;
+}
+
+.noi-dung-du-an .cot{
+    max-width: 320px;
+    border: 1px solid #dee2e6;
+    box-shadow: 1px 1px 5px #d0d0d0;
+}
+
+.noi-dung-du-an .cot a{
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+#project img{
+    width: 100%;
+    height: auto;
+}
+
+#project .container .section-title{
+    padding-left: 32px;
+}
+
+.border-pj{
+    height: auto;
+    align-items: flex-start;
+    gap: 16px;
+    border: 1px solid #dee2e6;
+    padding: 24px 0 12px 4px;
+}
+
+.border-pj span{
+    background-color: #339af0;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: -8px;
+}
+
+/* cho table trong project */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 1.5;
+}
+
+td{
+    padding: 8px 2px 8px 4px;
+    text-align: left;
+}
+
+
+/*  footer */
+#footer{
+    background-color: #f7f7f7;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#footer .container{
+    gap: 48px;  
+}
+
+.bt-footer{
+    gap: 4px;
+}
+
+.bt-footer i{
+    font-size: 30px;
+    color: #339af0;
+}
